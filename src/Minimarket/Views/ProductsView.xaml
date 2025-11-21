@@ -1,0 +1,10 @@
+<UserControl x:Class="Minimarket.Views.ProductsView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <StackPanel>
+        <ListBox ItemsSource="{Binding Products}" />
+        <Button Command="{Binding AddProductCommand}">Add Product</Button>
+        <Button Command="{Binding UpdateProductCommand}">Update Product</Button>
+        <Button Command="{Binding DeleteProductCommand}">Delete Product</Button>
+    </StackPanel>
+</UserControl>

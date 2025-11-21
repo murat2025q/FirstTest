@@ -1,7 +1,8 @@
 <Window x:Class="Minimarket.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="MainWindow" Height="350" Width="525">
+        Title="Minimarket" Height="450" Width="800">
     <Grid>
+        <local:ProductsView />
     </Grid>
 </Window>
